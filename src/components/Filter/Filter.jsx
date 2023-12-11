@@ -1,7 +1,8 @@
+import React from 'react';
 import style from './Filter.module.css';
 
 const Filter = ({ value, onChange }) => (
-  <div className={style.searchContainer}> {/* Додаємо обгортку для центрування */}
+  <div className={style.searchContainer}>
     <label className={style.search}>
       <input
         type="text"
@@ -15,6 +16,5 @@ const Filter = ({ value, onChange }) => (
     </label>
   </div>
 );
-
 
 export default Filter;

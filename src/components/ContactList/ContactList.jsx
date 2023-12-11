@@ -24,4 +24,3 @@ const ContactList = ({ visibleContacts, onDeleteContact }) => {
 };
 
 export default ContactList;
-
